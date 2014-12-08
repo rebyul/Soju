@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58213E6C1A2A976D00119B09 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58213E6B1A2A976D00119B09 /* Storyboard.storyboard */; };
+		587467B81A33CB190095E8F0 /* XYZAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587467B61A33CB190095E8F0 /* XYZAddToDoItemViewController.m */; };
+		587467B91A33CB190095E8F0 /* XYZAddToDoItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587467B71A33CB190095E8F0 /* XYZAddToDoItemViewController.xib */; };
+		587467BD1A33CBBA0095E8F0 /* XYZToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 587467BB1A33CBBA0095E8F0 /* XYZToDoList.m */; };
+		587467BE1A33CBBA0095E8F0 /* XYZToDoList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587467BC1A33CBBA0095E8F0 /* XYZToDoList.xib */; };
 		58EF862D1A2A064A00743A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EF862C1A2A064A00743A99 /* main.m */; };
 		58EF86301A2A064A00743A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EF862F1A2A064A00743A99 /* AppDelegate.m */; };
-		58EF86331A2A064A00743A99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EF86321A2A064A00743A99 /* ViewController.m */; };
-		58EF86361A2A064A00743A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EF86341A2A064A00743A99 /* Main.storyboard */; };
 		58EF86381A2A064A00743A99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EF86371A2A064A00743A99 /* Images.xcassets */; };
 		58EF863B1A2A064A00743A99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58EF86391A2A064A00743A99 /* LaunchScreen.xib */; };
 		58EF86471A2A064A00743A99 /* iOSTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EF86461A2A064A00743A99 /* iOSTutorialTests.m */; };
+		58F5223C1A3519BC00207398 /* XYZToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F5223B1A3519BC00207398 /* XYZToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58213E6B1A2A976D00119B09 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		587467B51A33CB190095E8F0 /* XYZAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZAddToDoItemViewController.h; path = ../XYZAddToDoItemViewController.h; sourceTree = "<group>"; };
+		587467B61A33CB190095E8F0 /* XYZAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYZAddToDoItemViewController.m; path = ../XYZAddToDoItemViewController.m; sourceTree = "<group>"; };
+		587467B71A33CB190095E8F0 /* XYZAddToDoItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XYZAddToDoItemViewController.xib; path = ../XYZAddToDoItemViewController.xib; sourceTree = "<group>"; };
+		587467BA1A33CBBA0095E8F0 /* XYZToDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoList.h; sourceTree = "<group>"; };
+		587467BB1A33CBBA0095E8F0 /* XYZToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoList.m; sourceTree = "<group>"; };
+		587467BC1A33CBBA0095E8F0 /* XYZToDoList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZToDoList.xib; sourceTree = "<group>"; };
 		58EF86271A2A064A00743A99 /* iOSTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EF862B1A2A064A00743A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58EF862C1A2A064A00743A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58EF862E1A2A064A00743A99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58EF862F1A2A064A00743A99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		58EF86311A2A064A00743A99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		58EF86321A2A064A00743A99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		58EF86351A2A064A00743A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58EF86371A2A064A00743A99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		58EF863A1A2A064A00743A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		58EF86401A2A064A00743A99 /* iOSTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EF86451A2A064A00743A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58EF86461A2A064A00743A99 /* iOSTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTutorialTests.m; sourceTree = "<group>"; };
+		58F5223A1A3519BC00207398 /* XYZToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoItem.h; sourceTree = "<group>"; };
+		58F5223B1A3519BC00207398 /* XYZToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +91,17 @@
 		58EF86291A2A064A00743A99 /* iOSTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				587467B51A33CB190095E8F0 /* XYZAddToDoItemViewController.h */,
+				587467B61A33CB190095E8F0 /* XYZAddToDoItemViewController.m */,
+				587467B71A33CB190095E8F0 /* XYZAddToDoItemViewController.xib */,
 				58EF862E1A2A064A00743A99 /* AppDelegate.h */,
 				58EF862F1A2A064A00743A99 /* AppDelegate.m */,
-				58EF86311A2A064A00743A99 /* ViewController.h */,
-				58EF86321A2A064A00743A99 /* ViewController.m */,
-				58EF86341A2A064A00743A99 /* Main.storyboard */,
+				58F5223A1A3519BC00207398 /* XYZToDoItem.h */,
+				58F5223B1A3519BC00207398 /* XYZToDoItem.m */,
+				587467BA1A33CBBA0095E8F0 /* XYZToDoList.h */,
+				587467BB1A33CBBA0095E8F0 /* XYZToDoList.m */,
+				587467BC1A33CBBA0095E8F0 /* XYZToDoList.xib */,
+				58213E6B1A2A976D00119B09 /* Storyboard.storyboard */,
 				58EF86371A2A064A00743A99 /* Images.xcassets */,
 				58EF86391A2A064A00743A99 /* LaunchScreen.xib */,
 				58EF862A1A2A064A00743A99 /* Supporting Files */,
@@ -199,8 +215,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58EF86361A2A064A00743A99 /* Main.storyboard in Resources */,
+				58213E6C1A2A976D00119B09 /* Storyboard.storyboard in Resources */,
 				58EF863B1A2A064A00743A99 /* LaunchScreen.xib in Resources */,
+				587467B91A33CB190095E8F0 /* XYZAddToDoItemViewController.xib in Resources */,
+				587467BE1A33CBBA0095E8F0 /* XYZToDoList.xib in Resources */,
 				58EF86381A2A064A00743A99 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58EF86331A2A064A00743A99 /* ViewController.m in Sources */,
+				58F5223C1A3519BC00207398 /* XYZToDoItem.m in Sources */,
+				587467B81A33CB190095E8F0 /* XYZAddToDoItemViewController.m in Sources */,
 				58EF86301A2A064A00743A99 /* AppDelegate.m in Sources */,
+				587467BD1A33CBBA0095E8F0 /* XYZToDoList.m in Sources */,
 				58EF862D1A2A064A00743A99 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +264,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		58EF86341A2A064A00743A99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58EF86351A2A064A00743A99 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		58EF86391A2A064A00743A99 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -343,9 +355,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,9 +368,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +430,7 @@
 				58EF864C1A2A064A00743A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58EF864D1A2A064A00743A99 /* Build configuration list for PBXNativeTarget "iOSTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				58EF864F1A2A064A00743A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
