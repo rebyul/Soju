@@ -46,6 +46,9 @@
         self.toDoItem.itemName = self.textField.text;
         self.toDoItem.completed = NO;
         
+        // Schedule a local notification to in the UIApplication to appear 10 seconds
+        // after clicking the done button and the text length is > 0
+        // Also increase the icon badge number by one every time a notification is scheduled
         UILocalNotification* localNotification = [[UILocalNotification alloc] init];
         localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:10];
         localNotification.alertBody = self.textField.text;

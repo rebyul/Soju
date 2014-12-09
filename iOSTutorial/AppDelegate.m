@@ -47,6 +47,7 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+// Hnadling local notifications
 - (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
 {
     UIApplicationState state = [application applicationState];
@@ -58,10 +59,9 @@
         [alert show];
     }
     
-    // Request to reload table view data
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadData" object:self];
-    
+    // Notification handled so
     // Set icon badge number to zero
+    // Can this be handled elsewhere? e.g. katalk only reduces it by the number of read items per chat room
     application.applicationIconBadgeNumber = 0;
 }
 

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+//Object model -> should be moved to a models folder. Not sure how to refactor file names
 @interface XYZToDoItem : NSObject
 
 @property NSString *itemName;
